@@ -1,0 +1,267 @@
+body {
+  background-image: url("images/pattern-background-mobile.png");
+  Background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #d6e1ff !important;
+
+}
+
+.main-div {
+  position: relative;
+  padding-bottom: 20px;
+  left: 17px;
+  background-color: white;
+  width: 90%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 100px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.logo {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.sum {
+  text-align: center;
+  margin-top: 30px;
+  text-shadow: 1px 0;
+  color: #12145d;
+}
+
+.p-sum {
+  margin-top: 25px;
+  /*word-break: break-all;*/
+  width: auto;
+  margin-left: 10%;
+  color: #6b6b6b;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.plan {
+  background-color: #8841c30f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 80% !important;
+  height: 75px;
+  margin-bottom: 20px;
+}
+
+.annual-plan {
+  font-weight: 500;
+  text-shadow: 1px 0 black;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.col-icon {
+  margin-top: 15px;
+}
+
+.icon-music {
+  width: 80%;
+  margin-left: 5px;
+}
+
+.price-col {
+  white-space: nowrap;
+  font-size: 1.0rem;
+  margin-top: 10px;
+  flex-grow: 0;
+}
+
+.year-price {
+  margin-top: -4px;
+}
+
+#btn1 {
+  color: #a900ff;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#btn1:hover {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.proceed {
+  text-align: center;
+  padding: 7px;
+}
+
+.proceed:hover {
+  padding: 7px;
+  height: 45px;
+  background-color: #7e4caf !important;
+  text-decoration: none !important;
+  color: white !important;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#proceed {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  text-shadow: 1px 0 black;
+}
+
+#proceed:hover {
+  color: white;
+}
+
+.cancel {
+  text-align: center;
+  margin-top: 20px;
+  padding: 7px;
+}
+
+.cancel:hover {
+  padding: 7px;
+  height: 45px;
+  background-color: #7e4caf;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.cancel1 {
+  color: black !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  text-shadow: 1px 0 black;
+}
+
+.cancel1:hover {
+  color: white !important;
+}
+
+ .footer{
+   margin-top: 120px;
+   text-align: center;
+   
+    font-weight: 700;
+    width: auto;
+ }
+
+@media screen and (min-width:375px) {
+  #btn1 {
+    margin-left: 45px;
+  }
+ }
+
+@media screen and (min-width:425px) {
+  .p-sum {
+    margin-left: 15%;
+    width: auto;
+  }
+
+  #btn1 {
+    margin-left: 75px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  body {
+    background-image: url("images/pattern-background-desktop.png");
+    Background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #c8b0d68c !important;
+  }
+
+  .main-div {
+    width: 55%;
+    left: 160px;
+  }
+
+  .sum {
+    font-size: 2.1rem;
+  }
+
+  .p-sum {
+    margin-left: 18%;
+    width: auto;
+    word-break:normal;
+  }
+
+  #btn1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .main-div {
+    width: 43%;
+    margin: auto;
+    margin-top: 140px;
+    position: static;
+  }
+
+  .p-sum {
+    width: auto;
+  }
+
+  #btn1 {
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  #proceed {
+    font-size: 20px;
+  }
+
+  .proceed{
+    height: 47px;
+  }
+
+  .proceed:hover {
+    height: 47px;
+  }
+
+  #cancel {
+    font-size: 20px;
+    height: 40px;
+  }
+
+
+   .cancel{
+     height: 47px;
+   }
+  .cancel:hover {
+    height: 47px
+
+  }
+}
+
+@media screen and (min-width:1400px) {
+ .main-div{
+  width: 30%;
+ }
+ }
+
+@media screen and (min-width:1920px){
+
+  .main-div{
+    width: 23%;
+  }
+}
+
+@media screen and (min-width:2560px){
+
+  .main-div{
+    width: 17%;
+  }
+}
